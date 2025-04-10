@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .chat-container-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 10px;
+        }
+
+        .chat-container-header img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+        }
+
+        .chatbot-name {
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="chat-container">
+        <!-- Chatbot Header -->
+        <div class="chat-container-header">
+            <!-- APS University Logo -->
+            <img src="https://tse2.mm.bing.net/th?id=OIP.mZku4nNkOMTorDF23DFfBAHaHa&pid=Api" 
+                 alt="APS University Logo" />
+            <h2 class="chatbot-name">CS SAATHI</h2>
+            
+        </div>
+
+        <!-- Chatbox Messages -->
+        <div id="chat-box" class="chat-box">
+            <div class="chat-message bot-message">Hello! How can I assist you today? Ask me about departments,
+                admissions, or any other queries.</div>
+        </div>
+
+        <!-- User Input -->
+        <div class="input-container">
+            <input type="text" id="user-input" class="user-input" placeholder="Type your question..." />
+            <button id="send-btn" class="send-btn">Send</button>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p><a href="https://www.yourwebsite.com" target="_blank" class="footer-link">Designed by Pratik</a></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
